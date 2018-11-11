@@ -1,0 +1,1 @@
+C:\Wpf\Wpf\bin\Debug\Wpf.exe.config
