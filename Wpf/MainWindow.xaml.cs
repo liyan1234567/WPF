@@ -19,8 +19,11 @@ namespace Wpf
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
+    /// 
+    
     public partial class MainWindow : Window
     {
+        //private string value;
         public MainWindow()
         {
             InitializeComponent();
@@ -31,6 +34,13 @@ namespace Wpf
             Human h=(Human)this.FindResource("human");
             MessageBox.Show(h.Child.name);
         }
+        public string name
+        {
+            set { name = value; }
+            get;
+        }
+
+        
     }
  
     //public class Human
